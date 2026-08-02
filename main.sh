@@ -15,9 +15,9 @@ rainbow_figlet() {
 while true; do
     clear
     # Display colourful banner
-    rainbow_figlet "Onxx-tool"
+    rainbow_figlet "ONCKA"
     echo -e "\e[1;32m=========================================\e[0m"
-    echo -e "\e[1;33m1.\e[0m \e[1;36mInstall Tools\e[0m"
+    echo -e "\e[1;33m1.\e[0m \e[1;36mInstall Tool\e[0m"
     echo -e "\e[1;33m2.\e[0m \e[1;36mView Info (Instagram & YouTube)\e[0m"
     echo -e "\e[1;33m3.\e[0m \e[1;36mExit\e[0m"
     echo -e "\e[1;32m=========================================\e[0m"
@@ -25,7 +25,7 @@ while true; do
     case $opt in
         1)
             echo -e "\e[1;32mStarting installation...\e[0m"
-            bash install.sh
+            bash onxx.sh
             read -p $'\e[1;36mPress Enter to continue...\e[0m'
             ;;
         2)
