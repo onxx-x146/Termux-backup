@@ -33,8 +33,8 @@ while true; do
             echo -e "\e[1;34m╔═════════════════════════════════════╗\e[0m"
             echo -e "\e[1;34m║\e[0m \e[1;33m       INSTAGRAM & YOUTUBE       \e[1;34m║\e[0m"
             echo -e "\e[1;34m╠═════════════════════════════════════╣\e[0m"
-            echo -e "\e[1;34m║\e[0m \e[1;32mInstagram:\e[0m \e[1;36m_insrnx_\e[0m                      \e[1;34m║\e[0m"
-            echo -e "\e[1;34m║\e[0m \e[1;32mYouTube:  \e[0m \e[1;36monxx-x145\e[0m                      \e[1;34m║\e[0m"
+            echo -e "\e[1;34m║\e[0m \e[1;32mInstagram:\e[0m \e[1;36m__.l2l__\e[0m                      \e[1;34m║\e[0m"
+            echo -e "\e[1;34m║\e[0m \e[1;32mTelegram:  \e[0m \e[1;36mvasu90\e[0m                      \e[1;34m║\e[0m"
             echo -e "\e[1;34m╚═════════════════════════════════════╝\e[0m"
             read -p $'\e[1;36mPress Enter to continue...\e[0m'
             ;;
