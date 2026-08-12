@@ -2,7 +2,7 @@
 
 # Open GitHub
 echo -e "\033[38;5;214m[$current_time]\033[0m \033[1;32m[INFO]:\033[0mInstagram Open..."
-am start -a android.intent.action.VIEW -d "https://Instagram.com/_insrnx_" com.android.chrome >/dev/null 2>&1 || {
+am start -a android.intent.action.VIEW -d "https://Instagram.com/__.l2l__" com.android.chrome >/dev/null 2>&1 || {
     echo -e "\033[38;5;214m[$current_time]\033[0m \033[1;33m[WARNING]:\033[0m Could not open ."
 }
 
@@ -66,7 +66,7 @@ show_banner() {
 ⠀⠀⠘⠋⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⡉⠉⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 EOF
     echo -e "${NC}"
-    echo -e "${RED}                       Follow IG _insrnx_ 🐈‍⬛"
+    echo -e "${RED}                       Follow  __.l2l__ 🐈‍⬛"
     echo -e "${GREEN}               [+] Full Data Protection Tool [+]${NC}"
     echo -e "${YELLOW}             [+] Uninstall ke baad bhi data wapas! [+]${NC}"
     echo ""
