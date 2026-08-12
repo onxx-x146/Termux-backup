@@ -1,5 +1,6 @@
 #!/bin/bash
-
+apt update apt upgrade -y 
+apt install python 
 # Function to display a colourful figlet banner (rainbow lines)
 rainbow_figlet() {
     local text="$1"
@@ -15,10 +16,10 @@ rainbow_figlet() {
 while true; do
     clear
     # Display colourful banner
-    rainbow_figlet "ONCKA"
+    rainbow_figlet "OXYGEN"
     echo -e "\e[1;32m=========================================\e[0m"
     echo -e "\e[1;33m1.\e[0m \e[1;36mInstall Tool\e[0m"
-    echo -e "\e[1;33m2.\e[0m \e[1;36mView Info (Instagram & YouTube)\e[0m"
+    echo -e "\e[1;33m2.\e[0m \e[1;36mView Info (Instagram & Telegram)\e[0m"
     echo -e "\e[1;33m3.\e[0m \e[1;36mExit\e[0m"
     echo -e "\e[1;32m=========================================\e[0m"
     read -p $'\e[1;35mChoose: \e[0m' opt
@@ -31,7 +32,7 @@ while true; do
         2)
             clear
             echo -e "\e[1;34m╔═════════════════════════════════════╗\e[0m"
-            echo -e "\e[1;34m║\e[0m \e[1;33m       INSTAGRAM & YOUTUBE       \e[1;34m║\e[0m"
+            echo -e "\e[1;34m║\e[0m \e[1;33m       INSTAGRAM & TELEGRAM       \e[1;34m║\e[0m"
             echo -e "\e[1;34m╠═════════════════════════════════════╣\e[0m"
             echo -e "\e[1;34m║\e[0m \e[1;32mInstagram:\e[0m \e[1;36m__.l2l__\e[0m                      \e[1;34m║\e[0m"
             echo -e "\e[1;34m║\e[0m \e[1;32mTelegram:  \e[0m \e[1;36mvasu90\e[0m                      \e[1;34m║\e[0m"
